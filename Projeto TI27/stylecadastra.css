@@ -1,0 +1,26 @@
+div{
+    display: flex;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background: #590fe4;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+div input{
+    border: none;
+    height: 30px;
+    width: auto;
+    border-bottom: 3px solid #590fe4;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+div img{
+    width: 18px;
+    cursor: pointer;
+}

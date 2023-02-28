@@ -1,0 +1,95 @@
+body {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(111, 0, 255);
+    color: #eee;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+    padding: 50px;
+    
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+}
+
+table tr th {
+    font-size: 1.2em;
+}
+
+table tr th,
+table tr td {
+    padding: 10px;
+}
+
+table tr td a {
+    color: #eee;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 1.1em;
+}
+/*  ESTE RECURSO ELIMINA VARIAÇÃO DE CORES EM LINHAS
+table tr:nth-of-type(odd) td {
+    background-color: rgb(255, 0, 0);
+}*/
+
+form {
+    border: #fff 3px solid;
+    border-radius: 20px;
+    padding: 15px;
+    width: 550px;
+}
+
+form label {
+    display: inline-block;
+    width: 120px;
+}
+
+form input {
+    width: 400px;
+}
+
+form input[type="submit"] {
+    width: 200px;
+    margin-left: 78px;
+}
+
+form input[value="Sim"] {
+    width: 200px;
+    margin-left: 74px;
+}
+
+div #btnnao {
+    position: relative;
+    top: -39px; 
+    left: 307px;
+    width: 200px;
+}
+
+form textarea {
+    width: 400px;
+}
+
+#foto1a {
+    position: relative;
+    top: 3px;
+    left: 450px;
+}
+
+#foto2a {
+    position: relative;
+    top: 3px;
+    left: 450px;
+}
+
+#msg{
+    color: #f00;
+    font-weight: bold;
+    margin-left: 50px;
+
+}
